@@ -88,6 +88,7 @@ public class Solution {
 		}
 	}
 
+	// Borrowed from https://www.vogella.com/tutorials/JavaAlgorithmsPrimeFactorization/article.html
 	public static List<Integer> primeFactors(int numbers) {
 		int n = numbers;
 		List<Integer> factors = new ArrayList<Integer>();
