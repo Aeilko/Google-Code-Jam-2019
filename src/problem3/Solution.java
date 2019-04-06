@@ -69,17 +69,11 @@ public class Solution {
 					primeToChar.put(j, c);
 				}
 			}
-			/*System.out.println("Primes: " + primeToChar.size());
-			for(int key: primeToChar.keySet()){
-				System.out.println("Prime: " + key + " - " + primeToChar.get(key));
-			}*/
-
 			// Now we can decrypt the ciphertext
 			String plaintext = "" + primeToChar.get(firstPrime);
 			prevPrime = firstPrime;
 			for(int prime: cipher){
 				int cp = prime/prevPrime;
-				//System.out.println("cipher: " + prime + ", " + prevPrime + ", " + cp + " - " + primeToChar.get(cp));
 
 				plaintext += primeToChar.get(prime/prevPrime);
 				prevPrime = cp;

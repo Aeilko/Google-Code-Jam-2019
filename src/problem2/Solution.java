@@ -25,7 +25,11 @@ public class Solution {
 					path += 'E';
 			}
 
+			System.out.println("Case #" + i + ": " + path);
+
 			/*
+			 * This method should also work, but i have no clue why it doesn't.
+			 *
 			// If the first and last move don't match we can just start with N-1 times the different move and than N-1 times the other move
 			if(p.charAt(0) != p.charAt(p.length()-1)){
 				if(p.charAt(0) == 'E')
@@ -45,10 +49,11 @@ public class Solution {
 					path = getXChars(l, 'E') + getXChars(n-1, 'S') + getXChars(n-l-1, 'E');
 				}
 			}*/
-
-			System.out.println("Case #" + i + ": " + path);
 		}
 	}
+
+
+	// These methods are no longer used in the newer version.
 
 	public static String getXChars(int x, char c){
 		String result = "";
