@@ -1,6 +1,6 @@
 # Google Code Jam 2019
 
-## Qualification round
+## Qualification round - 41/100 (23:39:18)
 
 ### Problem 1 - Foregone Solution (17/16)
  * Testset 1 - 6 points :heavy_check_mark: (15:26:13, [code](https://github.com/Aeilko/Google-Code-Jam-2019/blob/6d8084c28653204c5d0543d8a6e6d680ead63b7f/src/problem1/Solution.java))
