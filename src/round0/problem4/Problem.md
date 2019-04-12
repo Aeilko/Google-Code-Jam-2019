@@ -57,6 +57,8 @@ To better facilitate local testing, we provide you the following script. Instruc
 
 If your code passes the testing tool but fails the real judge, please check here to make sure that you are using the same compiler as us. 
 
+[Open tool: testing_tool.py](src/round0/problem4/testing_tool.py)
+
 ### Sample Interaction
 
 The following interaction meets the limits for Test set 1. 
