@@ -1,4 +1,4 @@
-package problem2;
+package round0.problem2;
 
 import java.util.*;
 import java.io.*;
