@@ -76,14 +76,7 @@ public class Solution {
 					tmpList.add(word.substring(1));
 			}
 		}
-
-		/*if((tmpList.size()+emptyWords) > 1){
-			int r = findLongestStrings(tmpList, false);
-			if (r <= ((tmpList.size() + emptyWords) - 2))
-				r += 2;
-
-			result += r;
-		}*/
+		
 		return result;
 	}
 }
