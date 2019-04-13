@@ -2,7 +2,7 @@
 
 ## Qualification round - 41/100 (23:39:18)
 
-### Problem 1 - Foregone Solution (17/16)
+### Problem 1 - Foregone Solution (17/17)
 [Problem](src/round0/problem1/Problem.md) and [Analysis](src/round0/problem1/Analysis.md)
  * Testset 1 - 6 points :heavy_check_mark: (15:26:13 [code](https://github.com/Aeilko/Google-Code-Jam-2019/blob/6d8084c28653204c5d0543d8a6e6d680ead63b7f/src/problem1/Solution.java))
  * Testset 2 - 10 points :heavy_check_mark: (15:26:13)
@@ -23,3 +23,21 @@
 [Problem](src/round0/problem4/Problem.md) and [Analysis](src/round0/problem4/Analysis.md)
  * Testset 1 - 14 points
  * Testset 2 - 20 points
+ 
+## Round 1A - 0/100
+### Problem 1 - Pylons (0/31)
+[Problem](src/round1A/problem1/Problem.md) and [Analysis](src/round1A/problem1/Analysis.md)
+ * Testset 1 - 8 points
+ * Testset 2 - 23 points
+
+### Problem 2 - Golf Gophers (0/32)
+[Problem](src/round1A/problem2/Problem.md) and [Analysis](src/round1A/problem2/Analysis.md)
+ * Testset 1 - 11 points
+ * Testset 2 - 21 points
+
+## Problem 3 - Alien Ryhme (0/37)
+[Problem](src/round1A/problem3/Problem.md) and [Analysis](src/round1A/problem3/Analysis.md)
+ * Testset 1 - 10 points :heavy_check_mark:* ([code](https://github.com/Aeilko/Google-Code-Jam-2019/blob/64d71ec1d0a0048d1fbeccd94e80a4bac0efb758/src/round1A/problem3/Solution.java))
+ * Testset 2 - 27 points :heavy_check_mark:*
+
+\* The code does work, however there was a small typo which would cause wrong answers. I noticed this error just after the deadline, after fixing this error it did pass all testsets.

@@ -40,3 +40,26 @@ T = 16.
 2 ≤ C ≤ 20.
 
 ### Sample
+
+| Input | Output |
+| --- | --- |
+| 2 | |
+| 2 2 | Case #1: IMPOSSIBLE |
+| 2 5 | Case #2: POSSIBLE |
+| | 2 3 |
+| | 1 1 |
+| | 2 4 |
+| | 1 2 |
+| | 2 5 |
+| | 1 3 |
+| | 2 1 |
+| | 1 5 |
+| | 2 2 |
+| | 1 4 |
+
+In Sample Case #1, no matter which starting cell we choose, we have nowhere to jump, since all of the remaining cells share a row, column, or diagonal with our starting cell.
+
+In Sample Case #2, we have chosen the cell in row 2, column 3 as our starting cell. Notice that it is fine for our final cell to share a row, column, or diagonal with our starting cell. The following diagram shows the order in which the cells are visited:
+
+    2   4   6   10  8   
+    7   9   1   3   5
