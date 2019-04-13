@@ -13,7 +13,7 @@ The first line of the input gives the number of test cases, T. T test cases foll
 ### Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is the size of the largest subset of words meeting the criteria described above.
 
-###Limits
+### Limits
 1 ≤ T ≤ 100.
 
 Time limit: 20 seconds per test set.
