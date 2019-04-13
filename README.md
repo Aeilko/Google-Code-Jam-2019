@@ -37,7 +37,7 @@
 
 ## Problem 3 - Alien Ryhme (0/37)
 [Problem](src/round1A/problem3/Problem.md) and [Analysis](src/round1A/problem3/Analysis.md)
- * Testset 1 - 10 points :heavy_check_mark:* ([code](https://github.com/Aeilko/Google-Code-Jam-2019/blob/64d71ec1d0a0048d1fbeccd94e80a4bac0efb758/src/round1A/problem3/Solution.java))
+ * Testset 1 - 10 points :heavy_check_mark:* [code](src/round1A/problem3/Solution.java)
  * Testset 2 - 27 points :heavy_check_mark:*
 
 \* The code does work, however there was a small typo which would cause wrong answers. I noticed this error just after the deadline, after fixing this error it did pass all testsets.

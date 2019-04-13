@@ -12,16 +12,17 @@ public class Solution {
 		for (int i = 1; i <= t; ++i) {
 			int N = in.nextInt();
 
+			// Create a list of the reversed version of each word (ABC -> CBA)
 			ArrayList<String> words = new ArrayList<String>();
 			for(int j = 0; j < N; j++){
 				String word = in.next();
-				// Reverse words, since we want to find the longest groups of words
 				word = new StringBuilder(word).reverse().toString();
 				words.add(word);
 			}
 
 			Collections.sort(words);
 
+			// Now find the longest combinations of substrings
 			int r = findLongestStrings(words, true);
 			System.out.println("Case #" + i + ": " + r);
 		}
@@ -40,8 +41,13 @@ public class Solution {
 		char lastChar = 'A';
 		ArrayList<String> tmpList = new ArrayList<String>();
 		int emptyWords = 0;
-		for(int i = 0; i < list.size(); i++){
-			String word = list.get(i);
+		for(int i = 0; i <= list.size(); i++){
+			// We loop one extra time to process the last character, so we set the word to a character which is not used.
+			String word;
+			if(i == list.size())
+				word = ".";
+			else
+				word = list.get(i);
 
 			if(word.charAt(0) == lastChar){
 				// Current first letter equals first letter of previous word, therefore we add this to the current word list.
@@ -60,7 +66,7 @@ public class Solution {
 					result += r;
 				}
 
-				// Reset this letter
+				// Current char does not match previous char, so we reset some vars
 				emptyWords = 0;
 				lastChar = word.charAt(0);
 				tmpList = new ArrayList<String>();
@@ -71,13 +77,13 @@ public class Solution {
 			}
 		}
 
-		if((tmpList.size()+emptyWords) > 1){
+		/*if((tmpList.size()+emptyWords) > 1){
 			int r = findLongestStrings(tmpList, false);
 			if (r <= ((tmpList.size() + emptyWords) - 2))
 				r += 2;
 
 			result += r;
-		}
+		}*/
 		return result;
 	}
 }
