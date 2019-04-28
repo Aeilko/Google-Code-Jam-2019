@@ -41,17 +41,20 @@ public class Solution {
 				}
 			}
 
-
-			int max = 0;
+			int max = -1;
 			int xCoord = -1;
 			int yCoord = -1;
-			for(int x = 0; x <= q; x++){
-				for(int y = 0; y <= q; y++){
-					if(rows[y]+cols[x] > max){
-						max = rows[y]+cols[x];
-						xCoord = x;
-						yCoord = y;
-					}
+			for(int x = 0; x <= q; x++) {
+				if(cols[x] > max){
+					xCoord = x;
+					max = cols[x];
+				}
+			}
+			max = -1;
+			for(int y = 0; y <= q; y++){
+				if(rows[y] > max){
+					yCoord = y;
+					max = rows[y];
 				}
 			}
 
